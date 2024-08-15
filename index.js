@@ -25,7 +25,9 @@ app.use(
 app.use(express.static(path.join(__dirname, "public")));
 
 //API endpoints
-
+app.get("/test-image", (req, res) => {
+  res.sendFile(path.join(__dirname, "public/img/react.png"));
+});
 /*
  * returns: an array of projects
  */
