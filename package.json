@@ -4,7 +4,8 @@
   "description": "Test Node API with MongoDB",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./index.js"
+    "dev": "node ./index.js",
+    "start": "node index.js"
   },
   "author": "Joanna",
   "license": "ISC",
