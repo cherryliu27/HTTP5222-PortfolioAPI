@@ -6,7 +6,8 @@ const { MongoClient, ObjectId } = require("mongodb");
 const app = express();
 const port = process.env.PORT || "3000";
 
-const dbUrl = "mongodb://127.0.0.1:27017/portfolio";
+const dbUrl =
+  "mongodb+srv://user:DuDHAewH0lRmc4YU@http5222.d7xrvky.mongodb.net/?retryWrites=true&w=majority&appName=http5222";
 
 const client = new MongoClient(dbUrl);
 
